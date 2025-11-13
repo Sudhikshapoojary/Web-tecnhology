@@ -18,6 +18,7 @@ p {
 </style> 
 </head> 
 <body> 
+  <h2>Sudhiksha-4MW23CS166</h2>
 <?php 
 $file = 'counter.txt'; 
 $count = file_exists($file) ? (int)file_get_contents($file) : 0; 
@@ -27,3 +28,4 @@ file_put_contents($file, ++$count);
 <p>Number of Visitors: <strong><?php echo $count; ?></strong></p> 
 </body> 
 </html>
+
